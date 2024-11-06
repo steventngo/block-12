@@ -1,0 +1,60 @@
+body {
+  background-color: gray;
+  }
+h2 {
+  color: white;
+}
+p {
+  color: rebeccapurple;
+}
+header {
+  background-color: blue;
+  display: flex;
+  
+  
+      }
+
+img {
+  width: 250px;
+  height: 350px;
+  border-radius: 50%;
+}
+section  {
+  border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: end;
+  }
+
+
+h2:hover {
+color: brown;
+}
+
+header > div {
+  width: 100%;
+}
+
+section > img {
+  width: 150px;
+  height: 250px;
+}
+
+#group {
+  width: 600px;
+  height: 250px; 
+  border-radius: 90%;
+}
+
+
